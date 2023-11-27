@@ -1,0 +1,1 @@
+/home/eegrad/rghosal/STTran/dataloader/object_bbox_and_relationship_filtersmall.pkl
