@@ -7,8 +7,9 @@ Before running this file, download dataloader, fasterRCNN and lib folder, where 
 
 Finally run this line:
 
+```python
 python Relation.py -mode predcls -datasize large -data_path /home/eegrad/rghosal/STTran/data/ag/  -model_path /data/AmitRoyChowdhury/Rinki/tempura_models/predcls/best_Mrecall_model.tar  -input_dir /data/AmitRoyChowdhury/Rinki/Activity_box_test -original_video_path /data/AmitRoyChowdhury/sayak/activity-net-captions/test_paths.txt   -rel_mem_compute joint -rel_mem_weight_type simple -mem_fusion late -mem_feat_selection manual  -mem_feat_lambda 0.5  -rel_head gmm -obj_head linear -K 6 
-
+```
 
 where,
 original_video_path is the text file where, paths for videos of particular dataset are saved,
