@@ -1,4 +1,4 @@
-#Getting relationship
+#Getting relationship from Relation.py
 
 
 This file has main function, where relationships between pair objects are generated.
@@ -28,10 +28,3 @@ json files are saved as "Activity_BBox.json"
 fmap files are saved as "npz_fmap.npz"
 *********************************************
 
-
-
-# practice
-# practice
-# tempura_rinki
-# tempura_rinki
-# tempura_rinki
