@@ -17,11 +17,14 @@ data_path is the directory where action_genome annotations are saved
 
 
 **** Name change *******************
+
+
 Within each frame folder,
 roi_features are saved as "npz_file.npz"
 
 Within each video folder,
 json files are saved as "Activity_BBox.json"
+
 fmap files are saved as "npz_fmap.npz"
 *********************************************
 
