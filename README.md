@@ -23,13 +23,13 @@ where,
 * output_dir is the directory where detected relationships will be saved
 
 
-**** Name change *******************
+
 
 # organization of data
-|--Video_1
-   |--"npz_fmap.npz"
-   |--Activity_BBox.json
-   |--frame_1
-     |-- "npz_file.npz"
-   |--frame_2
+|--Video_1 \n
+   |--"npz_fmap.npz" \n
+   |--Activity_BBox.json \n
+   |--frame_1 \n
+     |-- "npz_file.npz" \n
+   |--frame_2 \n
      |--"npz_file.npz"
