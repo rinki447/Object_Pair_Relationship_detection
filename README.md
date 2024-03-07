@@ -1,5 +1,8 @@
-#Getting relationship from Relation.py
+# Getting relationship between detected object pairs in frames of videos
 
+This project aims to detect relationships like looking_at/sitting_on/in_front_of between two objects in frames of a video. So we need to have the list of detected objects and their coordinates in all frames of the videos. Also, we need the extracted ROI features of the objects saved in a .npz file.
+
+# Contents
 
 This file has main function, where relationships between pair objects are generated.
 
