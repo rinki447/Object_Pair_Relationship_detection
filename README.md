@@ -2,6 +2,20 @@
 
 This project aims to detect relationships like looking_at/sitting_on/in_front_of between two objects in frames of a video. So we need to have the list of detected objects and their coordinates in all frames of the videos. Also, we need the extracted ROI features of the objects saved in a .npz file. Some of our codes are taken from the repository https://github.com/sayaknag/unbiasedsgg?tab=readme-ov-file
 
+
+# Requirements
+* python=3.6
+* pytorch=1.1
+* scipy=1.1.0
+* cypthon
+* dill
+* easydict
+* h5py
+* opencv
+* pandas
+* tqdm
+* yaml
+  
 # Contents
 
 The file Relation.py has main function, where relationships between pair objects are generated.
@@ -26,10 +40,10 @@ where,
 
 
 # organization of data
-|--Video_1 \n
-   |--"npz_fmap.npz" \n
-   |--Activity_BBox.json \n
-   |--frame_1 \n
-     |-- "npz_file.npz" \n
-   |--frame_2 \n
-     |--"npz_file.npz"
+|--Video_1      
+   |--"npz_fmap.npz"       
+   |--Activity_BBox.json      
+   |--frame_1      
+     |-- "npz_file.npz"      
+   |--frame_2      
+     |--"npz_file.npz"    
