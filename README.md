@@ -40,10 +40,12 @@ where,
 
 
 # organization of data
-|--Video_1      
-      |--"npz_fmap.npz"       
-      |--Activity_BBox.json      
-      |--frame_1      
-           |-- "npz_file.npz"      
-      |--frame_2      
-           |--"npz_file.npz"    
+
+|--- Video_1
+|    |--- "npz_fmap.npz" 
+|    |--- Activity_BBox.json 
+|    |--- frame_1
+|         |--- "npz_file.npz
+|    |--- frame_2
+|         |--- "npz_file.npz
+
